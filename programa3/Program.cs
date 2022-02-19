@@ -1,0 +1,11 @@
+﻿Console.WriteLine("HOLA!");
+Console.WriteLine("Por favor ingrese dos numeros: ");
+long num1= long.Parse(Console.ReadLine());
+long num2= long.Parse(Console.ReadLine());
+long suma= num1+ num2;
+long resta = num1 - num2;
+long producto = num1 * num2;
+Console.WriteLine("El resultado de la suma es: " + suma);
+Console.WriteLine("El resultado de la resta es: " + resta);
+Console.WriteLine("El resultado del producto es: " + producto);
+Console.ReadKey();  
